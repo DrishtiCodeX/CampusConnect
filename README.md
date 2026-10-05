@@ -57,30 +57,29 @@ Stores marks obtained by students in different courses.
 
 The complete database structure is available in the **ER Diagram**.
 
+
 ## 💡 SQL Concepts Implemented
 
 This project demonstrates:
 
 * SELECT
 * WHERE
-* AND / OR
 * IN
 * BETWEEN
+* DISTINCT
 * ORDER BY
-* JOIN
+* INNER JOIN
+* LEFT JOIN
 * Aggregate Functions
 
   * COUNT
   * AVG
   * MAX
   * MIN
-  * SUM
 * GROUP BY
 * HAVING
-* UPDATE
-* DELETE
 * Subqueries
-* Views
+
 
 ## 🔎 Example Queries
 
@@ -90,14 +89,22 @@ The project includes queries for:
 * Finding students by year
 * Displaying students with their courses
 * Displaying students with their marks
-* Calculating average, highest, and lowest marks
+* Displaying all students including those without marks
+* Finding unique departments
+* Finding students scoring above or below a specific mark
+* Calculating average marks
+* Finding highest and lowest marks
+* Calculating average marks by course
 * Counting students by department
 * Counting enrollments by course
 * Finding courses with more than two students
+* Finding students enrolled in multiple courses
 * Finding students scoring above the overall average
+* Finding students with no marks
 * Finding the student(s) with the highest marks
 
 All queries are available in **`queries.sql`**.
+
 
 ## 📁 Project Files
 
